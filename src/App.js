@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import Home from "./ReactMenu/Home";
+import About from "./ReactMenu/About";
+import Service from "./ReactMenu/Services";
+import Contact from "./ReactMenu/Contact";
+import Navbar from "./ReactMenu/Navbar";
+import Footer from "./ReactMenu/Footer";
 import './App.css';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 
-function App() {
+const App = () => {
+  const navigate = useNavigate();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/service" element={<Service />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route path="*" element={() => navigate('/')} />
+
+      </Routes>
+      <Footer />
+
+    </>
+  )
 }
 
 export default App;
