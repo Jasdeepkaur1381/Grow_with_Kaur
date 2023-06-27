@@ -19,7 +19,7 @@ const App = () => {
       navigate('/');
     }, 1000);
 
-    return () => clearTimeout(redirectTimeout); // Clean up the timeout on unmount
+    return () => clearTimeout(redirectTimeout);
   }, [navigate]);
   return (
     <>
