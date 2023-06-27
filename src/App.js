@@ -20,7 +20,7 @@ const App = () => {
     }, 1000);
 
     return () => clearTimeout(redirectTimeout);
-  }, [navigate]);
+  }, []);
   return (
     <>
       <Navbar />
@@ -29,7 +29,7 @@ const App = () => {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route path="*" element={() => navigate('/')} />
+        {/* <Route path="*" element={() => navigate('/')} /> */}
 
       </Routes>
       <Footer />
