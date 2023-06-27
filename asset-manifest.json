@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Grow_with_Kaur/static/css/main.7fb045fa.css",
+    "main.js": "/Grow_with_Kaur/static/js/main.3242eb1b.js",
+    "static/js/787.b255f673.chunk.js": "/Grow_with_Kaur/static/js/787.b255f673.chunk.js",
+    "static/media/marketing.jpg": "/Grow_with_Kaur/static/media/marketing.f629aa392c4ff105f747.jpg",
+    "static/media/app.jpeg": "/Grow_with_Kaur/static/media/app.8714f36598ad2ce812b5.jpeg",
+    "static/media/android.jpeg": "/Grow_with_Kaur/static/media/android.ee1d95083516dda0d669.jpeg",
+    "static/media/software.jpeg": "/Grow_with_Kaur/static/media/software.1cb4dc77f9fd741d63f4.jpeg",
+    "static/media/digital.jpeg": "/Grow_with_Kaur/static/media/digital.dad8270c838055c62dd3.jpeg",
+    "static/media/s1.jpg": "/Grow_with_Kaur/static/media/s1.8e51e67dff71d6464727.jpg",
+    "static/media/hero-img.png": "/Grow_with_Kaur/static/media/hero-img.53f1b5467e5095dc4126.png",
+    "static/media/img2.svg": "/Grow_with_Kaur/static/media/img2.d12e2a271e618bd9bc130b61d3930482.svg",
+    "index.html": "/Grow_with_Kaur/index.html",
+    "main.7fb045fa.css.map": "/Grow_with_Kaur/static/css/main.7fb045fa.css.map",
+    "main.3242eb1b.js.map": "/Grow_with_Kaur/static/js/main.3242eb1b.js.map",
+    "787.b255f673.chunk.js.map": "/Grow_with_Kaur/static/js/787.b255f673.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fb045fa.css",
+    "static/js/main.3242eb1b.js"
+  ]
+}
